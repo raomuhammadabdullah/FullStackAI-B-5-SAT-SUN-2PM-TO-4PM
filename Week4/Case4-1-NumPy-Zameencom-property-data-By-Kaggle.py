@@ -26,7 +26,6 @@ print("Zameen.com Price pow: " , np.power(price,price))
 print("Zameen.com Price abs: " , np.abs(price))
 
 
-
 # Perform basic arithmetic operations
 addition = long + lat
 subtraction = long - lat
@@ -141,7 +140,6 @@ for i in range(0, (rows + 1)):
     for j in range(0, (cols + 1)):
         print (D2LongLat[i,j])
 """
-
 
 # 2 x 149 ========>>>>> 1  x 298 - reshape
 D2LongLat1TO298 = np.reshape(D2LongLat, (1, 298))
